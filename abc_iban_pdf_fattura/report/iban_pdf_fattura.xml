@@ -3,10 +3,10 @@
     <template id="iban_print_invoice_inherit" inherit_id="account.report_invoice_document">
         <xpath expr="//p[@name='payment_term']" position="after">
             <t t-if="env.company.id=='1'">
-                <span>IBAN: IT98L0306981781100000001056</span>
+                <span>IBAN: IT68H0200881782000300808414</span>
             </t>
             <t t-else="">
-                <span>IBAN: IT68H0200881782000300808414</span>
+                <span>IBAN: IT98L0306981781100000001056</span>
             </t>
         </xpath>
     </template>
