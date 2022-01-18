@@ -26,6 +26,8 @@
         # 'security/ir.model.access.csv',
         #'views/views.xml',
         'report/iban_pdf_fattura.xml',
+        'report/iban_pdf_preventivo.xml',
+        'report/email_testata_preventivo.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
