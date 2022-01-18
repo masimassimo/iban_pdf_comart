@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="iban_print_external_layout_clean_inherit" inherit_id="web.external_layout_clean">
+        <xpath expr="//div[@name='company_address']/ul/li[3]" position="replace">
+            <li><span>ass.comar@libero.it</span></li>
+        </xpath>
+    </template>
+</odoo>
