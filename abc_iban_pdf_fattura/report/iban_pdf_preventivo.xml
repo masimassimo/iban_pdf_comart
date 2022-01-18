@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="iban_print_saleorder_inherit" inherit_id="sale.report_saleorder_document">
+        <xpath expr="//p[@t-field='doc.note']" position="after">
+            <t t-if="doc.company_id.id==1">
+                <span>IBAN: IT98L0306981781100000001056</span>
+            </t>
+            <t t-else="">
+                <span>IBAN: IT68H0200881782000300808414</span>
+            </t>
+        </xpath>
+    </template>
+</odoo>
